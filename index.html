@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries-Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Country Drop-Down -->
+    <div class="drop-down">
+        <select id="select-country">
+            <option value="Republic of India">Republic of India</option>
+        </select>
+    </div>
+
+    <!-- Country Flag -->
+    <div class="flag">
+        <img id="flag-img" src="images/India-flag.jpg" alt="">
+    </div>
+
+    <!-- Country Details -->
+    <div class="details">
+
+        <!-- Country's Official Name -->
+        <div class="name">
+            <ion-icon name="location-outline"></ion-icon>
+            <label>Name:</label>
+            <div id="name">Republic of India</div>
+        </div>
+
+        <!-- Capital Town of the Country -->
+        <div class="capital">
+            <ion-icon name="aperture-outline"></ion-icon>
+            <label>Capital:</label>
+            <div id="capital">New Delhi</div>
+        </div>
+
+        <!-- Population of the Country -->
+        <div class="population">
+            <ion-icon name="people-circle-outline"></ion-icon>
+            <label>population:</label>
+            <div id="population">1500000000</div>
+        </div>
+
+        <!-- Currency of Country -->
+        <div class="currency">
+            <ion-icon name="logo-usd"></ion-icon>
+            <label>currency:</label>
+            <div id="currency">Rupees</div>
+        </div>
+
+        <!-- Region of the Country -->
+        <div class="region">
+            <ion-icon name="logo-ionic"></ion-icon>
+            <label>Region:</label>
+            <div id="region">Asia</div>
+        </div>
+
+        <!-- Area of the Country -->
+        <div class="area">
+            <ion-icon name="logo-firefox"></ion-icon>
+            <label>Area:</label>
+            <div id="area">3287590.0</div>
+        </div>
+    </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
